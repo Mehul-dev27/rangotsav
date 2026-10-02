@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{background:#faf6ef;color:#2b2118}
+.btn{@apply inline-flex items-center justify-center px-5 py-3 text-sm font-medium tracking-wide transition}
+.btn-dark{@apply btn bg-ink text-cream hover:bg-maroon}
+.btn-line{@apply btn border border-ink hover:bg-ink hover:text-cream}
+.inp{@apply w-full border border-sand bg-white px-3 py-2 text-sm outline-none focus:border-ink}

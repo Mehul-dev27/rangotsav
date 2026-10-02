@@ -1,0 +1,1 @@
+module.exports = { content: ['./src/**/*.{ts,tsx}'], theme: { extend: { colors: { cream: '#faf6ef', sand: '#efe6d6', ink: '#2b2118', maroon: '#7a1f2b' }, fontFamily: { serif: ['Georgia','serif'] } } }, plugins: [] }
